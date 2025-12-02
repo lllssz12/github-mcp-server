@@ -1,0 +1,4 @@
+     Logger.Log(Debug, "Processing TID: " & Integer'Image(TID_Num));
+     TID_Total_Time := TID_Total_Time + Get_TID_Time (PID_Data.PID_Number, Positive (TID_Num));
+  end;
+
